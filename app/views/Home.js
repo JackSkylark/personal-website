@@ -1,5 +1,5 @@
 import React from "react";
-import {HexIcon} from "./../components/hexagon/HexIcon";
+import {SampleForm} from "./../components/form/form";
 
 export default class HomeView extends React.Component {
   constructor(props) {
@@ -10,7 +10,7 @@ export default class HomeView extends React.Component {
     return (
       <div>
         <p>This is the home page!</p>
-        <HexIcon iconName="rocket" iconSize="2x"/>
+        <SampleForm />
       </div>
     );
   }
