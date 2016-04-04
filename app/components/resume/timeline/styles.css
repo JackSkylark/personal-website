@@ -1,0 +1,59 @@
+.timeline {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.data {
+  height: 300px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.data .dataItem {
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-right-color: transparent;
+  border-right-style: solid;
+  z-index: 5;
+  opacity: .5;
+  border-bottom-color: #b4dad7;
+  border-bottom-style: solid;
+}
+.data .title {
+  position: absolute;
+  bottom: 27px;
+  white-space: nowrap;
+  border-bottom: 2px solid #b4dad7;
+  font-size: 15px;
+}
+.data .subTitle {
+  position: absolute;
+  bottom: 7px;
+  left: 7px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.data .title_arrow {
+  position: absolute;
+  bottom: 13px;
+  border-left: 2px solid #b4dad7;
+}
+.yearsContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.yearsContainer .middot {
+  font-size: 58px;
+  color: #666;
+  line-height: 20px;
+}
+.yearsContainer .yearsList {
+  margin-top: 25px;
+  font-size: 20px;
+}
